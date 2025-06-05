@@ -10,10 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/widmoser/agent-action.git"
   },
+  "type": "module",
   "author": "widmoser",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/widmoser/agent-action/issues"
   },
-  "homepage": "https://github.com/widmoser/agent-action#readme"
+  "homepage": "https://github.com/widmoser/agent-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@widmoser/agent": "^0.1.0"
+  }
 }
